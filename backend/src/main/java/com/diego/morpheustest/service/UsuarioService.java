@@ -33,8 +33,8 @@ public class UsuarioService {
 		Usuario usuario = new Usuario(null, nome);
 		
 		try {
-			FileWriter writer = new FileWriter(data);
-			writer.write("INSERT INTO usuarios (nome) VALUES ('" + nome + "');");
+			FileWriter writer = new FileWriter(data, true);
+			writer.write("INSERT INTO usuarios (nome) VALUES ('" + nome + "');\n");
 			writer.close();
 			System.out.println("Cadastro realizado.");
 		} catch (IOException e) {
