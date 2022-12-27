@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+.App header {
+  background-color: maroon;
+  padding: 15px;
+  border-bottom: 1px solid black;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.App h1 {
+  text-align: center;
+  background-color: maroon;
+  padding: 10px;
+  color:beige;
+  display: inline;
+}

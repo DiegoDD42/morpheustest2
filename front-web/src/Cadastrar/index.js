@@ -1,6 +1,10 @@
 const Cadastrar = () => {
     return (
-        <div className="cadastrar">cadastrar</div>
+        <div className="cadastrar">
+            <header>
+                <h1>Cadastrar Usuário</h1>
+            </header>
+        </div>
     );
 }
  

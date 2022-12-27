@@ -1,0 +1,51 @@
+.listar form {
+    background-color: antiquewhite;
+}
+
+.listar label {
+    background-color: antiquewhite;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.listar input {
+    background-color: #f2f2f2;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.listar button {
+    background-color: indianred;
+    color: beige;
+    font-size: large;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.listar button:hover {
+    background-color: brown;
+    transform: scale(1.01);
+}
+
+.tabela-usuario {
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+.tabela-usuario table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-usuario td {
+    background-color: #f2f2f2;
+    font-size: larger;
+    padding: 10px;
+    border: 1px solid black;
+}
