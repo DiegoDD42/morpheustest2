@@ -1,38 +1,38 @@
 .content {
-    max-width: 400px;
-    margin: 150px auto;
-    text-align: center;
+  max-width: 400px;
+  margin: 150px auto;
+  text-align: center;
 }
 
 .menu header {
-    background-color: maroon;
-    padding: 15px;
-    border-bottom: 1px solid black;
-    border-radius: 15px;
-    margin: 5px;
+  background-color: maroon;
+  padding: 15px;
+  border-bottom: 1px solid black;
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .menu h1 {
-    text-align: center;
-    background-color: maroon;
-    padding: 10px;
-    color:beige;
-    display: inline;
+  text-align: center;
+  background-color: maroon;
+  padding: 10px;
+  color: beige;
+  display: inline;
 }
 
 .menu a {
-    background-color:  indianred;
-    color: beige;
-    font-size: xx-large;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 8px;
-    margin: 10px;
-    text-decoration: none;
-    display: block;
+  background-color: indianred;
+  color: beige;
+  font-size: xx-large;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 10px;
+  text-decoration: none;
+  display: block;
 }
 
 .menu a:hover {
-    background-color: brown;
-    transform: scale(1.01);
+  background-color: brown;
+  transform: scale(1.01);
 }

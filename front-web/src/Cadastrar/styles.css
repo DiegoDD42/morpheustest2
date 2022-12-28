@@ -1,8 +1,8 @@
-.listar form {
+.cadastrar form {
   background-color: antiquewhite;
 }
 
-.listar label {
+.cadastrar label {
   background-color: antiquewhite;
   font-size: 25px;
   font-weight: 600;
@@ -10,14 +10,14 @@
   padding-right: 10px;
 }
 
-.listar input {
+.cadastrar input {
   background-color: #f2f2f2;
   padding: 6px 10px;
   box-sizing: border-box;
   border: 1px solid black;
 }
 
-.listar button {
+.cadastrar button {
   background-color: indianred;
   color: beige;
   font-size: large;
@@ -28,22 +28,20 @@
   cursor: pointer;
 }
 
-.listar button:hover {
+.cadastrar button:hover {
   background-color: brown;
   transform: scale(1.01);
 }
 
-.tabela-usuario {
-  overflow-y: scroll;
+.message {
+  margin: 30px;
+  padding: 10px;
 }
 
-.tabela-usuario table {
-  width: 100%;
-  background-color: black;
+.pos {
+  color: limegreen;
 }
 
-.tabela-usuario td {
-  background-color: #f2f2f2;
-  font-size: larger;
-  height: 50px;
+.neg {
+  color: red;
 }
