@@ -16,11 +16,13 @@ Backend
 
 3. Execute o SpringToolSuite4.exe Abra o diretório da aplicacão (morpheustest2-main) como workspace do STS 
 
-4. No ambiente, abra o arquivo Utils.java no diretório backend/src/main/java/com/diego/morpheustest/utilities
+4. Clique em "Import projects...", expanda a pasta Maven e selecione a opção Existing Maven Projects, clique em Browse e selecione a pasta "backend", marque o arquivo pom.xml e prossiga
 
-5. Modifique a constante installDir, trocando o conteúdo pelo seu diretório onde foi extaída a pasta morpheustest2-main e salve a modificação
+5. No ambiente, abra o arquivo Utils.java no diretório backend/src/main/java/com/diego/morpheustest/utilities
 
-6. Inicie a aplicação na aba Boot Dashboard (expanda a opção local clique com botão direito em backend e escolha (re)start)
+6. Modifique a constante installDir, trocando o conteúdo pelo seu diretório onde foi extaída a pasta morpheustest2-main e salve a modificação
+
+7. Inicie a aplicação na aba Boot Dashboard (expanda a opção local clique com botão direito em backend e escolha (re)start)
 
 
 Frontend
