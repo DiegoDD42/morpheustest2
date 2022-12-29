@@ -18,7 +18,7 @@ import com.diego.morpheustest.utilities.Utils;
 @Service
 public class UsuarioService {	
 	
-	File data = new File(Utils.installDir + "\\morpheustest2\\backend\\src\\main\\resources\\data.sql");
+	File data = new File(Utils.installDir + "\\morpheustest2-main\\backend\\src\\main\\resources\\data.sql");
 	
 	@Autowired
 	private UsuarioRepository repository;
