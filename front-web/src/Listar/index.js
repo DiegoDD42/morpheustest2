@@ -2,6 +2,7 @@ import useFetch from "../useFetch";
 import { useEffect, useState } from "react";
 import TabelaUsuarios from "./TabelaUsuarios";
 import "./styles.css";
+import { useNavigate } from "react-router-dom";
 
 const Listar = () => {
   const {
@@ -9,6 +10,7 @@ const Listar = () => {
     error,
     isPending,
   } = useFetch("http://localhost:8080/usuarios");
+  const navigate = useNavigate();
   const [nome, setNome] = useState("");
   const [usuarios, setUsuarios] = useState("");
 
@@ -29,6 +31,9 @@ const Listar = () => {
       <header>
         <h1>Lista de Usuários</h1>
       </header>
+      <div className="link-menu">
+        <button onClick={() => navigate("/")}>Menu</button>
+      </div>
       <form onSubmit={HandleSubmit}>
         <label>Nome do Usuário:</label>
         <input

@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./styles.css";
+import { useNavigate } from "react-router-dom";
 
 const Cadastrar = () => {
+  const navigate = useNavigate();
   const [nome, setNome] = useState("");
   const [msg, setMsg] = useState("");
   const [err, setErr] = useState("");
@@ -30,6 +32,9 @@ const Cadastrar = () => {
       <header>
         <h1>Cadastrar Usuário</h1>
       </header>
+      <div className="link-menu">
+        <button onClick={() => navigate("/")}>Menu</button>
+      </div>
       <div className="content">
         <form onSubmit={HandleSubmit}>
           <label>Insira o nome do usuário:</label>

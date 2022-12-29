@@ -13,11 +13,12 @@ import org.springframework.transaction.annotation.Transactional;
 import com.diego.morpheustest.dto.UsuarioDTO;
 import com.diego.morpheustest.entities.Usuario;
 import com.diego.morpheustest.repositories.UsuarioRepository;
+import com.diego.morpheustest.utilities.Utils;
 
 @Service
-public class UsuarioService {
+public class UsuarioService {	
 	
-	File data = new File("C:\\Users\\diego\\Development\\ws-morpheustest2\\morpheustest2\\backend\\src\\main\\resources\\data.sql");
+	File data = new File(Utils.installDir + "\\morpheustest2\\backend\\src\\main\\resources\\data.sql");
 	
 	@Autowired
 	private UsuarioRepository repository;

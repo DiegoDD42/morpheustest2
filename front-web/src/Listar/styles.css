@@ -33,13 +33,15 @@
   transform: scale(1.01);
 }
 
-.tabela-usuario {
-  overflow-y: scroll;
-}
-
 .tabela-usuario table {
   width: 100%;
   background-color: black;
+}
+
+.tabela-usuario th {
+  background-color: lightgray;
+  font-size: larger;
+  height: 50px;
 }
 
 .tabela-usuario td {
