@@ -10,7 +10,7 @@ Instruções de deploy da aplicação:
 
 Backend
 
-1. Descompacte o Sping Tool Suite 4 (sts-4.14.0.RELEASE.rar)
+1. Instale o Spring Tool Suite 4
 
 2. Descompacte a pasta da aplicação (morpheustest2-main)
 
